@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Calculator</title>
+	</head>
+	<body>
+		<h1>Calculator</h1>
+		<div id="wrapper">
+			<div id="calc-btns">
+				<div id="display">0</div>
+				<div id="btn-container">
+					<button data-key="Numpad7" class="h-btn calc-btn num-btn btn">7</button>
+					<button data-key="Numpad8" class="h-btn calc-btn num-btn btn">8</button>
+					<button data-key="Numpad9" class="h-btn calc-btn num-btn btn">9</button>
+					<button data-key="NumpadAdd" class="h-btn calc-btn op-btn btn">+</button>
+					<button data-key="Numpad4" class="h-btn calc-btn num-btn btn">4</button>
+					<button data-key="Numpad5" class="h-btn calc-btn num-btn btn">5</button>
+					<button data-key="Numpad6" class="h-btn calc-btn num-btn btn">6</button>
+					<button data-key="NumpadSubtract" class="h-btn calc-btn op-btn btn">-</button>
+					<button data-key="Numpad1" class="h-btn calc-btn num-btn btn">1</button>
+					<button data-key="Numpad2" class="h-btn calc-btn num-btn btn">2</button>
+					<button data-key="Numpad3" class="h-btn calc-btn num-btn btn">3</button>
+					<button data-key="NumpadMultiply" class="h-btn calc-btn op-btn btn">x</button>
+					<button data-key="Numpad0" class="h-btn calc-btn num-btn btn">0</button>
+					<button data-key="NumpadDecimal" id="point-btn" class="h-btn calc-btn btn">
+						.
+					</button>
+					<button data-key="Backspace" id="b-space" class="h-btn calc-btn btn">CE</button>
+					<button data-key="NumpadDivide" class="h-btn calc-btn op-btn btn">÷</button>
+				</div>
+				<div id="resBtn-container">
+					<button data-key="NumpadEnter" id="eq-btn" class="h-btn res-btn btn">=</button>
+					<button data-key="Slash" id="minus-btn" class="h-btn res-btn btn">(-)</button>
+					<button data-key="Space" id="clear-btn" class="h-btn res-btn btn">AC</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
